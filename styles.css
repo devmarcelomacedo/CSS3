@@ -10,7 +10,7 @@
 
 @keyframes animacao1 {
     from {left: 0;}
-    to {left: 800px; background-color: green;}
+    to {left: 200px; background-color: green;}
 }
 
 #animation-div1 {
