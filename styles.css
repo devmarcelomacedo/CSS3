@@ -1,0 +1,30 @@
+.box {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    animation-name: animacao1;
+    animation-duration: 5s;
+    position: relative;
+    animation-delay: 0s;
+}
+
+@keyframes animacao1 {
+    from {left: 0;}
+    to {left: 800px; background-color: green;}
+}
+
+#animation-div1 {
+    animation-timing-function: linear;
+}
+#animation-div2 {
+    animation-timing-function: ease;
+}
+#animation-div3{
+    animation-timing-function: ease-in;
+}
+#animatio-div4{
+    animation-timing-function: ease-out;
+}
+#animation-div5 {
+    animation-timing-function: ease-in-out;
+}
